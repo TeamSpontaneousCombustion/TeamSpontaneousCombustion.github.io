@@ -8,9 +8,9 @@
 
 <script>
 	var iframe = document.getElementById("game");
-	var url = "{{site.url}}";
+	var url = window.location.href;
 	url = url.replace("http", "https");
-	iframe.src = url + "/builds/{{page.title}}"
+	iframe.src = url + "../../builds/{{page.title}}"
 </script>
 
 </html>
