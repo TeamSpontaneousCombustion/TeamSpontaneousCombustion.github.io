@@ -1,6 +1,7 @@
 ---
 layout: game
 title:  "Angler"
-width: 980
-height: 620
+width: 810
+height: 960
+gamelink: "https://teamspontaneouscombustion.github.io/builds/Angler/"
 ---
