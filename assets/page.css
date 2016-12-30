@@ -67,3 +67,9 @@ background-position: 0px 50px
 	display: inline-block;
 	background-color: red;
 }
+
+.container div h3,
+.container div p {
+	margin-left: 5px;
+	margin-top: 5px;
+}
