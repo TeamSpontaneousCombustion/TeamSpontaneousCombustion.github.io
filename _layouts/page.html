@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="{{site.url}}/assets/page.css">
+
+
+<div id="mainpage">
+	<div id="logo">
+		<a href="{{site.url}}">
+			<img src="{{site.url}}/assets/logo.png" alt="logo" />
+		</a>
+	</div>
+
+	{% include navbar.html %}
+
+
+
+	<div id="content" markdown>
+		{{ content }}
+	</div>
+
+
+</div>
+
+
+
+</html>

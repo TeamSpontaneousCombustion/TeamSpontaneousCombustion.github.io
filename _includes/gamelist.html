@@ -1,0 +1,24 @@
+<br /> {% for game in site.games %}
+
+<div class="container" onmouseup="openlink(event, '{{game.url}}')">
+	<div>
+		<p>
+			{{game.desc}}
+		</p>
+	</div>
+	<img src="{{site.url}}/assets/placeholder.png" />
+</div>
+
+{% endfor %}
+<br />
+
+<script>
+	function openlink(e, link) {
+		switch (e.button) {
+			case 0:
+			case 1:
+				document.location.href = link;
+				break;
+		}
+	}
+</script>
