@@ -1,4 +1,6 @@
-<br /> {% for game in site.games %}
+{% assign ordered_games = site.games | sort: "display-order" %}
+
+<br /> {% for game in ordered_games reversed %}
 
 <div class="container" onmouseup="openlink(event, '{{game.url}}')">
 	<div>

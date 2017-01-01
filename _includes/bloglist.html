@@ -1,0 +1,20 @@
+{% assign ordered_blogs = site.blogposts | sort: "display-order" %}
+
+<br /> {% for blog in ordered_blogs reversed %}
+
+<div class="container blog">
+	<div>
+		<a href="{{blog.url}}">
+			<h3>
+			 	{{blog.title}}
+			</h3>
+		</a>
+
+		<p>
+			{{blog.excerpt}}
+		</p>
+	</div>
+</div>
+
+{% endfor %}
+<br />

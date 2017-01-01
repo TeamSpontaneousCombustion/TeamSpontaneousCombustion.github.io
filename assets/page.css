@@ -33,6 +33,7 @@ background-position: 0px 50px
 
 #content {
 	background-image: url("./bg.png");
+	background-repeat: round;
 }
 
 .container {
@@ -72,4 +73,18 @@ background-position: 0px 50px
 .container div p {
 	margin-left: 5px;
 	margin-top: 5px;
+}
+
+.blog {
+	height: auto;
+}
+
+.blog:hover {
+	background-color: blue;
+	cursor: auto; !important
+}
+
+.blog div {
+	width: 890px;
+	height: auto;
 }
