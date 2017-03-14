@@ -1,12 +1,24 @@
+body {
+	 margin: 0;
+	 background-image: url("./bg.png");
+}
+
 #mainpage {
+	margin: auto;
+	width: 1000px;
+	background-color: rgba(0, 0, 0, .7);
+}
+
+#logo {
 	margin: auto;
 	width: 1000px;
 	background-color: black;
 }
 
-#logo {
-	margin: auto;
+#logo a {
 	width: 370px;
+	margin: auto;
+	display: block;
 }
 
 #navbar {
@@ -30,10 +42,12 @@
 #navbar a:hover {
 background-position: 0px 50px
 }
+#navbar .current-link {
+background-position: 0px 50px
+}
 
 #content {
-	background-image: url("./bg.png");
-	background-repeat: round;
+
 }
 
 .container {

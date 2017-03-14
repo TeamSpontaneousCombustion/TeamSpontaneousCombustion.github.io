@@ -1,6 +1,19 @@
 <div id="navbar">
-	<a href="{{site.url}}/games" style="background-image: url('{{site.url}}/assets/games.png')"> </a>
-	<a href="{{site.url}}/blog" style="background-image: url('{{site.url}}/assets/blog.png')"> </a>
-	<a href="{{site.url}}/music" style="background-image: url('{{site.url}}/assets/music.png')"> </a>
-	<a href="{{site.url}}/about" style="background-image: url('{{site.url}}/assets/about.png')"> </a>
+	<a href="{{site.url}}/games/" style="background-image: url('{{site.url}}/assets/games.png')"> </a>
+	<a href="{{site.url}}/blog/" style="background-image: url('{{site.url}}/assets/blog.png')"> </a>
+	<a href="{{site.url}}/music/" style="background-image: url('{{site.url}}/assets/music.png')"> </a>
+	<a href="{{site.url}}/about/" style="background-image: url('{{site.url}}/assets/about.png')"> </a>
 </div>
+
+<script>
+	var docURL = document.URL;
+	var test = [];
+    var linksList = document.querySelectorAll('a[href]');
+    for (var i = 0; i< linksList.length; i++) {
+        var link = linksList[i];
+        if (link.href === docURL) {
+            link.className += 'current-link';
+			test.push(link);
+        }
+    }
+</script>
