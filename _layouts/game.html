@@ -1,10 +1,21 @@
 <!DOCTYPE html>
 <html>
-<h1>
-	{{page.title}}
-</h1>
-<iframe id="game" src="{{page.gamelink}}" width="{{page.width}}" height={{page.height}} style="border:none; overflow:hidden;"></iframe>
-<a href="/">Back to mainpage </a>
+<link rel="stylesheet" type="text/css" href="{{site.url}}/assets/page.css">
+
+
+<div id="mainpage">
+	{% include header.html %} {% include navbar.html %}
+
+
+
+	<h1>
+		{{page.title}}
+	</h1>
+	<iframe id="game" src="{{page.gamelink}}" width="{{page.width}}" height={{page.height}}
+	style="border:none; overflow:hidden; display:block; margin-left:auto; margin-right:auto"></iframe>
+	<a href="/">Back to mainpage </a>
+	<br />
+	<a href="/games">Back to games </a>
 
 
 
