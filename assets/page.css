@@ -6,25 +6,29 @@ body {
 #mainpage {
 	margin: auto;
 	width: 1000px;
-	background-color: rgba(0, 0, 0, .7);
 }
 
 #logo {
 	margin: auto;
 	width: 1000px;
-	background-color: black;
+	height: 291px;
+	background-image: url("./headerbg.png") ;
+
+	display: flex;
+  justify-content: center;
+  align-items: center
 }
 
 #logo a {
 	width: 370px;
-	margin: auto;
 	display: block;
 }
 
 #navbar {
 	margin: auto;
-	width: 972px;
-	transform: translate(0, 25px);
+	width: 1000px;
+	transform: translate(0, 15px);
+	background-image: url("./contentbg.png");
 }
 
 #navbar a {
@@ -36,7 +40,10 @@ body {
 	width: 240px;
 	height: 50px;
 
-	background-position: 0px 0px
+	background-position: 0px 0px;
+
+	z-index: 1;
+	transform:translate(0,-16px);
 }
 
 #navbar a:hover {
@@ -45,9 +52,32 @@ background-position: 0px 50px
 #navbar .current-link {
 background-position: 0px 50px
 }
+#navbar :first-child{
+		margin-left: 14px !important
+}
 
 #content {
+	margin: auto;
+	width: 1000px;
+	background-image: url("./contentbg.png");
+	transform:translate(0, -1px);
+}
 
+#navbar::before {
+	content: "";
+	width: 1000px;
+	height: 15px;
+	background-image: url("./contentbgtop.png");
+	transform: translate(-0, -15px);
+	display:block;
+}
+
+#content::after {
+	content: "";
+	width: 1000px;
+	height: 15px;
+	background-image: url("./contentbgbottom.png");
+	display:block;
 }
 
 .container {
