@@ -12,19 +12,17 @@
 	</h1>
 	<img id="GameLogo" src="/assets/Logos/{{page.title}}.png">
 	<div id="Game" style="width:{{page.width}}; height:{{page.height}};">
-		<iframe src="{{site.url}}/builds/{{page.title}}" width="{{page.width}}" height="{{page.height}}" scrolling="no"></iframe>
+		
+		{% include {{ page.location }} %}
 	</div>
 
 	<div id="BottomContent">
-		<h3 id="DescriptionTitle">
-			Description
-		</h3>
 		<p id="Description">
 			{{page.desc}}
 		</p>
 
 		<h3 id="ControlsTitle">
-			Controls
+			Controlsadasdas
 		</h3>
 		<p id="Controls">
 			TODO: WRITE CONTROLS

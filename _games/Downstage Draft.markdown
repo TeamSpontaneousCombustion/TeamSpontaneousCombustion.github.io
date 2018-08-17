@@ -1,6 +1,7 @@
 ---
 layout: game
 title:  "Downstage Draft"
+location: Games/DownstageDraft.html
 width: 960
 height: 600
 desc: "A boy, bored at the theater, wanders backstage and encounters a different kind of challenge"

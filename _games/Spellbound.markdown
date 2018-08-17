@@ -1,6 +1,7 @@
 ---
 layout: game
 title:  "Spellbound"
+location: Games/Spellbound.html
 width: 800
 height: 600
 desc: "You find yourself locked in an abandoned library... but is there more to it than meets the eye?"

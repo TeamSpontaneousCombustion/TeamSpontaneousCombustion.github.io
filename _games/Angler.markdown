@@ -1,6 +1,7 @@
 ---
 layout: game
 title:  "Angler"
+location: Games/Angler.html
 width: 800
 height: 720
 desc: "Help the anglerfish seek out and catch its prey, navigating undersea tunnels and avoiding dangers"
