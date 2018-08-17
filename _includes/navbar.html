@@ -1,19 +1,26 @@
-<div id="navbar">
-	<a href="{{site.url}}/games/" style="background-image: url('{{site.url}}/assets/games.png')"> </a>
-	<a href="{{site.url}}/blog/" style="background-image: url('{{site.url}}/assets/blog.png')"> </a>
-	<a href="{{site.url}}/music/" style="background-image: url('{{site.url}}/assets/music.png')"> </a>
-	<a href="{{site.url}}/about/" style="background-image: url('{{site.url}}/assets/about.png')"> </a>
-</div>
+<head>
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=0.2" />
 
-<script>
-	var docURL = document.URL;
-	var test = [];
-    var linksList = document.querySelectorAll('a[href]');
-    for (var i = 0; i< linksList.length; i++) {
-        var link = linksList[i];
-        if (link.href === docURL) {
-            link.className += 'current-link';
-			test.push(link);
-        }
-    }
-</script>
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+
+</head>
+
+
+<ul id="Header">
+	<li>
+		<a href="/index.html">
+			<img src="/assets/TSC.png" height="70">
+		</a>
+	</li>
+	<li><a href="/index.html">Team Spontaneous Combustion</a></li>
+	<li style="float: right; margin-right: 10px;"><a href="/about.html">About</a></li>
+	<li style="float: right; margin-right: 10px;"><a href="https://random-storykeeper.bandcamp.com/music">Music</a></li>
+</ul>

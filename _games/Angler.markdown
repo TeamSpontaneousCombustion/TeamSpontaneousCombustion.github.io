@@ -1,9 +1,11 @@
 ---
 layout: game
 title:  "Angler"
-width: 810
-height: 960
-gamelink: "https://teamspontaneouscombustion.github.io/builds/Angler/"
-desc: "Help the anglerfish bla bla bla"
+width: 800
+height: 720
+desc: "Help the anglerfish seek out and catch its prey, navigating undersea tunnels and avoiding dangers"
+time: 7 days
+made: "GBJam 5"
+jampage: https://itch.io/jam/gbjam-5/rate/90435
 display-order: 2
 ---

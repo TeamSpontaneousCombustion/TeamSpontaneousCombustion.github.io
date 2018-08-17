@@ -1,22 +1,44 @@
-<!DOCTYPE html>
 <html>
-<link rel="stylesheet" type="text/css" href="{{site.url}}/assets/page.css">
 
+{% include navbar.html %}
 
-<div id="mainpage">
-	{% include header.html %} {% include navbar.html %}
+<title>
+	{{page.title}} - TSC
+</title>
 
-
-
-	<h1>
+<div id="Content">
+	<h1 id="GameTitle"> 
 		{{page.title}}
 	</h1>
-	<iframe id="game" src="{{page.gamelink}}" width="{{page.width}}" height={{page.height}}
-	style="border:none; overflow:hidden; display:block; margin-left:auto; margin-right:auto"></iframe>
-	<a href="/">Back to mainpage </a>
-	<br />
-	<a href="/games">Back to games </a>
+	<img id="GameLogo" src="/assets/Logos/{{page.title}}.png">
+	<div id="Game" style="width:{{page.width}}; height:{{page.height}};">
+		<iframe src="/builds/{{page.title}}" width="{{page.width}}" height="{{page.height}}" scrolling="no"></iframe>
+	</div>
+
+	<div id="BottomContent">
+		<h3 id="DescriptionTitle">
+			Description
+		</h3>
+		<p id="Description">
+			{{page.desc}}
+		</p>
+
+		<h3 id="ControlsTitle">
+			Controls
+		</h3>
+		<p id="Controls">
+			sadkjaslkdj sadjlkasjd sadkljas daskjdas daisodasm,d asdasod as dsanf df,m sg dfg
+		</p>
 
 
+
+		<p>
+			Made in {{page.time}} for the {{page.made}} - <a href="{{page.jampage}}">[Entry Page]</a>
+		</p>
+
+	</div>
+
+
+</div>
 
 </html>

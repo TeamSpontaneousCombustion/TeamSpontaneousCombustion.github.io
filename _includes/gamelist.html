@@ -1,29 +1,15 @@
-{% assign ordered_games = site.games | sort: "display-order" %}
+<div id="Content">
 
-<br /> {% for game in ordered_games reversed %}
+	{% assign ordered_games = site.games | sort: "display-order" %}
 
-<div class="container" onmouseup="openlink(event, '{{game.url}}')">
-	<div>
-		<h3>
-			 {{game.title}}
-		</h3>
-		<p>
-			{{game.desc}}
-		</p>
-	</div>
-	<img src="{{site.url}}/assets/placeholder.png" />
+	{% for game in ordered_games reversed %}
+
+
+	<a class="GameList" href="{{game.url}}">
+		<h1>{{game.title}}</h1>
+		<p>{{game.desc}}</p>
+		<img src="/assets/Logos/{{game.title}}.png">
+	</a>
+
+	{% endfor %}
 </div>
-
-{% endfor %}
-<br />
-
-<script>
-	function openlink(e, link) {
-		switch (e.button) {
-			case 0:
-			case 1:
-				document.location.href = link;
-				break;
-		}
-	}
-</script>

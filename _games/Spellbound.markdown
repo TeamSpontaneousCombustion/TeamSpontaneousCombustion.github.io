@@ -1,9 +1,11 @@
 ---
 layout: game
 title:  "Spellbound"
-width: 820
-height: 604
-gamelink: "https://teamspontaneouscombustion.github.io/builds/Spellbound/"
-desc: "A boy, bored at the theater, wanders backstage and encounters a different kind of challenge"
+width: 800
+height: 600
+desc: "You find yourself locked in an abandoned library... but is there more to it than meets the eye?"
+time: 72 hours
+made: Ludum Dare 37
+jampage: http://ludumdare.com/compo/ludum-dare-37/?action=preview&uid=110432
 display-order: 3
 ---
