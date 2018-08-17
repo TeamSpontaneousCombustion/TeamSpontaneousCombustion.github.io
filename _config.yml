@@ -18,8 +18,6 @@ email: your-email@example.com
 description: "Desc"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: ijzm
-github_username:  ijzm
 
 collections:
   games:
