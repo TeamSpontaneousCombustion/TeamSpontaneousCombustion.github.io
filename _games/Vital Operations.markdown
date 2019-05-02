@@ -1,7 +1,7 @@
 ---
 layout: game
 title:  "Vital Operations"
-location: "Games/Vital Operations.html"
+location: "Games/VitalOperations.html"
 width: 960
 height: 600
 desc: "Dr. Stein is a surgeon with a unique way of performing transplants on his patients. Their lives are in his hands, and his life is in your hands. Will you have a successful operation, or die trying?"
