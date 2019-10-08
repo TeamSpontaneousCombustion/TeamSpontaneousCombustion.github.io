@@ -8,7 +8,7 @@ desc: "Stranded in space surrounded by impending doom, you must assemble a hefty
 time: 72 hours
 made: Ludum Dare 45
 jampage: https://ldjam.com/events/ludum-dare/45/cosmicraft
-display-order: 7
+display-order: 8
 music:
     1: "Running Out of Patients"
     2: "Order of Operations"
