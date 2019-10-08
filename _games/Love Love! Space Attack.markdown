@@ -9,4 +9,8 @@ time: 72 hours
 made: Ludum Dare 41
 jampage: https://ldjam.com/events/ludum-dare/41/love-love-space-attack
 display-order: 5
+music:
+    1: "Sim-biotic Relationship"
+    2: "Mixed Signals"
+    3: "S U B M I T"
 ---

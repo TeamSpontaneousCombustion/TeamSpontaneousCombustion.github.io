@@ -9,4 +9,10 @@ time: 72 hours
 made: Ludum Dare 44
 jampage: https://ldjam.com/events/ludum-dare/44/vital-operations
 display-order: 7
+music:
+    1: "Running Out of Patients"
+    2: "Order of Operations"
+    3: Ridiculously Shiny Kidneys	
+    4: "It All Worked Out!"	
+    5: "Over My Dead Body"
 ---

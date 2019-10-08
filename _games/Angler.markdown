@@ -9,4 +9,10 @@ time: 7 days
 made: "GBJam 5"
 jampage: https://itch.io/jam/gbjam-5/rate/90435
 display-order: 2
+music:
+    1: "Deep Blue Ventures"
+    2: "Fish-For-All"
+    3: "Game Over"
+    4: "Game Over v2 (unused)"
+    5: "Ending"
 ---

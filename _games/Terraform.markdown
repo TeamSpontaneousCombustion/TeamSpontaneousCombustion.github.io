@@ -9,4 +9,8 @@ time: 72 hours
 made: Ludum Dare 38
 jampage: https://ldjam.com/events/ludum-dare/38/terraform
 display-order: 4
+music:
+    1: "Small is a Distant Space Away"	
+    2: "Midday Mining"
+    3: "Pomerania"
 ---

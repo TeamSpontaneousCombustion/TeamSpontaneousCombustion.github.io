@@ -9,4 +9,9 @@ time: 7 days
 made: Kongregate Game Jam
 jampage: https://www.kongregate.com/games/theijzm/downstage-draft
 display-order: 1
+music:
+    1: "Uncalled Intermission"
+    2: "An Act of Boredom"
+    3: "Wind Break"
+    4: "Level Complete"
 ---

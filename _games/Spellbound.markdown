@@ -9,4 +9,9 @@ time: 72 hours
 made: Ludum Dare 37
 jampage: http://ludumdare.com/compo/ludum-dare-37/?action=preview&uid=110432
 display-order: 3
+music:
+    1: "Foreword" 
+    2: "Just Browsing" 
+    3: "The Dark Pages" 
+    4: "Water Skimmer" 
 ---
