@@ -1,0 +1,42 @@
+<style>
+html, body {
+	background-color: #8E419B;
+}
+#Content {
+	background-color: #EEBDFA;
+}
+
+.MusicList {
+	color: transparent;
+}
+</style>
+
+<script>
+	document.getElementById
+	function HideChild(a, bgimage) {
+		console.log(bgimage);
+		a.style.backgroundImage = "url('/assets/Album/" + bgimage +".png')";
+		a.style.color = "transparent";
+	}
+	function ShowChild(a) {
+		console.log("ShowChild");
+		a.style.backgroundImage = "none";
+		a.style.backgroundColor = "#8E419B";
+		a.style.color = "black";
+	}
+</script>
+
+<div id="Content">
+	{% assign ordered_games = site.games | sort: "display-order" %}
+
+	{% for game in ordered_games reversed %}
+
+
+	<div class="MusicList" style="background-image: url('/assets/Album/{{game.title}}.png')" onmouseenter="ShowChild(this)" onmouseleave="HideChild(this, '{{game.title}}')">
+		{% for item in {{game.music}} %}
+		<p> {{item[1]}} </p>
+		{% endfor %}		
+	</div>
+
+	{% endfor %}
+</div>
