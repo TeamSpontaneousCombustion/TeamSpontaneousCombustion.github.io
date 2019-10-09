@@ -16,7 +16,7 @@ music:
 controls: |
     <b>Arrow keys</b> or <b>WASD</b> - Move <br>
     <b>Click and hold</b> - Mine a Resource or Attack enemies<br>
-    <b>Mouse</b> - Build 
+    <b>Mouse</b> - Build <br>
 instructions: |
-    Mine resources and construct buildings. Survive as many days as possible!
+    Mine resources and construct buildings. Survive as many days as possible!<br>
 ---
