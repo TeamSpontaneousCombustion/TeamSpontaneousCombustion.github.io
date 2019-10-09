@@ -15,4 +15,17 @@ music:
     3: Ridiculously Shiny Kidneys	
     4: "It All Worked Out!"	
     5: "Over My Dead Body"
+controls: |
+    W or Up arrow key - Move forward <br>
+    Mouse - Steer <br>
+    Q - Enter/Exit edit mode <br>
+    Click and drag - Add, rearrange and remove parts <br>
+instructions: |
+    Find and defeat all 3 bosses (using the arrow at the top as an indicator) to obtain their parts and win. <br>
+    There are 5 kinds of blocks:<br>
+    <b>Boosters</b> - Make your ship fly and turn around faster<br>
+    <b>Hull</b> - Protect other components<br>
+    <b>Power Cells</b> - Improve your fire rate<br>
+    <b>Gun Towers</b> - Allow you to shoot one more bullet simultaneously<br>
+    <b>Trophies</b> - Attach 3 of them to yor ship in order to win!<br>
 ---

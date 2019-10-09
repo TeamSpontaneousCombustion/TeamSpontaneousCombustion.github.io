@@ -165,3 +165,25 @@ iframe {
 	image-rendering:pixelated;                 /* CSS4 Proposed  */
 	-ms-interpolation-mode:nearest-neighbor;   /* IE8+           */
 }
+
+#Controls, #Instructions {
+	display: inline-block;
+	width: 49%;
+	margin-top: 0px;
+	float: left;
+}
+
+
+
+/*Music Stuff*/
+.MusicList {
+	display: inline-block;
+	background-size: 300px 300px;
+	width: 300px;
+	height: 300px;
+}
+
+.MusicList > img {
+	height: 100%;
+	width: 100%;
+}
