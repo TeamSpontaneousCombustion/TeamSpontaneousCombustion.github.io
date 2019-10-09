@@ -12,7 +12,6 @@
 	</h1>
 	<img id="GameLogo" src="/assets/Logos/{{page.title}}.png">
 	<div id="Game" style="width:{{page.width}}; height:{{page.height}};">
-		
 		{% include {{ page.location }} %}
 	</div>
 
@@ -20,26 +19,25 @@
 		<p id="Description">
 			{{page.desc}}
 		</p>
+
 		
-
-		<div id="Controls">
-			<h3 id="ControlsTitle">Controls</h3>
-			{{ page.controls }}
-		</div>
-		<div id="Instructions">
-			<h3 id="InstructionsTitle">Instructions</h3>
-			{{ page.instructions }}
-		</div>
-
-		<br>
-
 		<div>
+			<div id="Controls">
+				<h3 id="ControlsTitle">Controls</h3>
+				{{ page.controls }}
+			</div>
+			<div id="Instructions">
+				<h3 id="InstructionsTitle">Instructions</h3>
+				{{ page.instructions }}
+			</div>
+		</div>
+
+		<div id="ContentFooter">
+			<br>
 			Made in {{page.time}} for the {{page.made}} - <a href="{{page.jampage}}">[Entry Page]</a>
 		</div>
-
+	
 	</div>
-
-
 </div>
 
 </html>
