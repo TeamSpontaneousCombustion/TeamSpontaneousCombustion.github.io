@@ -16,10 +16,10 @@ music:
     4: "It All Worked Out!"	
     5: "Over My Dead Body"
 controls: |
-    W or Up arrow key - Move forward <br>
-    Mouse - Steer <br>
-    Q - Enter/Exit edit mode <br>
-    Click and drag - Add, rearrange and remove parts <br>
+    <b>W</b> or <b>Up arrow key</b> - Move forward <br>
+    <b>Mouse</b> - Steer <br>
+    <b>Q</b> - Enter/Exit edit mode <br>
+    <b>Click and drag</b> - Add, rearrange and remove parts <br>
 instructions: |
     Find and defeat all 3 bosses (using the arrow at the top as an indicator) to obtain their parts and win. <br>
     There are 5 kinds of blocks:<br>

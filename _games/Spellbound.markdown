@@ -13,5 +13,11 @@ music:
     1: "Foreword" 
     2: "Just Browsing" 
     3: "The Dark Pages" 
-    4: "Water Skimmer" 
+    4: "Water Skimmer"
+controls: |
+    <b>Arrow keys</b> or <b>WASD</b> - Move <br>
+    <b>Z</b> - Interact<br>
+    <b>X</b> - Shoot<br>
+instructions: |
+    TODO
 ---

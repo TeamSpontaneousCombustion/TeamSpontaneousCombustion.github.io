@@ -13,4 +13,10 @@ music:
     1: "Small is a Distant Space Away"	
     2: "Midday Mining"
     3: "Pomerania"
+controls: |
+    <b>Arrow keys</b> or <b>WASD</b> - Move <br>
+    <b>Click and hold</b> - Mine a Resource or Attack enemies<br>
+    <b>Mouse</b> - Build 
+instructions: |
+    Mine resources and construct buildings. Survive as many days as possible!
 ---

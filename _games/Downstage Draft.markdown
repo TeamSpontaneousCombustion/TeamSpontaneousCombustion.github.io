@@ -14,4 +14,10 @@ music:
     2: "An Act of Boredom"
     3: "Wind Break"
     4: "Level Complete"
+controls: |
+    <b>Arrow keys</b> or <b>WASD</b> - Move <br>
+    <b>Z</b> - Jump<br>
+    <b>X</b> - Change the fans direction<br>
+instructions: |
+    TODO
 ---

@@ -13,4 +13,9 @@ music:
     1: "Sim-biotic Relationship"
     2: "Mixed Signals"
     3: "S U B M I T"
+controls: |
+    <b>Arrow keys</b> or <b>WASD</b> - Move <br>
+    <b>Z</b> - Shot<br>
+instructions: |
+    When asked a question, one of the answers will make Ren happier and grant you an extra hit point. The rest will cause you to lose one. 
 ---
