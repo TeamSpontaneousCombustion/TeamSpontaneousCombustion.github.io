@@ -4,11 +4,21 @@ html, body {
 }
 #Content {
 	background-color: #EEBDFA;
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: center;
 }
 
 .MusicList {
 	color: transparent;
+	margin: 5px;
 }
+
+.MusicList > div {
+	padding: 20px;
+}
+
 </style>
 
 <script>
@@ -19,7 +29,6 @@ html, body {
 		a.style.color = "transparent";
 	}
 	function ShowChild(a) {
-		console.log("ShowChild");
 		a.style.backgroundImage = "none";
 		a.style.backgroundColor = "#8E419B";
 		a.style.color = "black";
@@ -31,11 +40,14 @@ html, body {
 
 	{% for game in ordered_games reversed %}
 
-
+	
 	<div class="MusicList" style="background-image: url('/assets/Album/{{game.title}}.png')" onmouseenter="ShowChild(this)" onmouseleave="HideChild(this, '{{game.title}}')">
-		{% for item in {{game.music}} %}
-		<p> {{item[1]}} </p>
-		{% endfor %}		
+		<div>
+			{% for item in {{game.music}} %}
+			<p> {{item[1]}} </p>
+			{% endfor %}
+
+		</div>		
 	</div>
 
 	{% endfor %}
