@@ -73,7 +73,9 @@ html, body {
 	background-color: gray;
 	margin: 30px auto 30px auto;
 	padding: 30px 10px 30px 10px;
-	border-radius: 10px
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
 }
 
 .GameList {
@@ -109,6 +111,11 @@ html, body {
 	display: inline-block;
 	font-size: 3em;
 	margin-bottom: 0px;
+}
+
+#BottomContent {
+	display: flex;
+	flex-direction: column;
 }
 
 #Game {
@@ -173,11 +180,14 @@ iframe {
 	float: left;
 }
 
+#ContentFooter {
+	clear: both;
+}
+
 
 
 /*Music Stuff*/
 .MusicList {
-	display: inline-block;
 	background-size: 300px 300px;
 	width: 300px;
 	height: 300px;

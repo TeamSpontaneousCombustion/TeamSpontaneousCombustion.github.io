@@ -10,11 +10,10 @@ made: Ludum Dare 45
 jampage: https://ldjam.com/events/ludum-dare/45/cosmicraft
 display-order: 8
 music:
-    1: "Running Out of Patients"
-    2: "Order of Operations"
-    3: Ridiculously Shiny Kidneys	
-    4: "It All Worked Out!"	
-    5: "Over My Dead Body"
+    1: "Earth To Cosmos"
+    2: "Shuttle Trouble (Soundtrack Version)"
+    3: "Big Angry Space Blocks"
+bandcamp: https://random-storykeeper.bandcamp.com/album/cosmicraft-ost
 controls: |
     <b>W</b> or <b>Up arrow key</b> - Move forward <br>
     <b>Mouse</b> - Steer <br>

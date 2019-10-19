@@ -14,6 +14,7 @@ music:
     2: "Small Business" 
     3: "Daycare Disaster" 
     4: "Premature Practices (extra track)"
+bandcamp: https://random-storykeeper.bandcamp.com/album/daycare-dilemma-ost
 controls: |
     <b>Left mouse click</b> - Drag items, kittens and babies<br>
     <b>Space</b> - Make the conveyor belt go faster<br>

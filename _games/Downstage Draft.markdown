@@ -14,6 +14,7 @@ music:
     2: "An Act of Boredom"
     3: "Wind Break"
     4: "Level Complete"
+bandcamp: https://random-storykeeper.bandcamp.com/album/downstage-draft-ost
 controls: |
     <b>Arrow keys</b> or <b>WASD</b> - Move <br>
     <b>Z</b> - Jump<br>

@@ -14,6 +14,7 @@ music:
     2: "Just Browsing" 
     3: "The Dark Pages" 
     4: "Water Skimmer"
+bandcamp: https://random-storykeeper.bandcamp.com/album/spellbound-ost
 controls: |
     <b>Arrow keys</b> or <b>WASD</b> - Move <br>
     <b>Z</b> - Interact<br>

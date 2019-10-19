@@ -13,6 +13,7 @@ music:
     1: "Sim-biotic Relationship"
     2: "Mixed Signals"
     3: "S U B M I T"
+bandcamp: https://random-storykeeper.bandcamp.com/album/love-love-space-attack-ost
 controls: |
     <b>Arrow keys</b> or <b>WASD</b> - Move <br>
     <b>Z</b> - Shot<br>

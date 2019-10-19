@@ -12,9 +12,10 @@ display-order: 7
 music:
     1: "Running Out of Patients"
     2: "Order of Operations"
-    3: Ridiculously Shiny Kidneys	
+    3: "Ridiculously Shiny Kidneys"	
     4: "It All Worked Out!"	
     5: "Over My Dead Body"
+bandcamp: https://random-storykeeper.bandcamp.com/album/vital-operations-ost
 controls: |
     <b>Arrow keys</b> or <b>WASD</b> - Move <br>
     <b>X</b> - Interact with a patient <br>

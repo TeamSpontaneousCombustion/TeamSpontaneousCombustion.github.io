@@ -15,8 +15,9 @@ music:
     3: "Game Over"
     4: "Game Over v2 (unused)"
     5: "Ending"
+bandcamp: https://random-storykeeper.bandcamp.com/album/angler-ost
 controls: |
     <b>WASD</b> or <b>Arrow Keys</b> - Move<br>
 instructions: |
-    TODO
+    TODO<br>
 ---
