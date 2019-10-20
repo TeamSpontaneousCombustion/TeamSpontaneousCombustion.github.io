@@ -11,27 +11,56 @@ html, body {
 }
 
 .MusicList {
-	color: transparent;
 	margin: 5px;
 }
 
 .MusicList > div {
 	padding: 20px;
+	visibility: hidden;
+}
+
+#AudioPlayer {
+	position: fixed;
+	z-index: 10;
+	bottom: 0;
+	width: 100%;
+
+	background-color: white;
 }
 
 </style>
 
 <script>
-	document.getElementById
+	var AudioSource;
+	var NowPlaying;
+	window.onload = function() {
+		AudioSource = document.getElementById("AudioSource");
+		NowPlaying = document.getElementById("NowPlaying");
+	}
 	function HideChild(a, bgimage) {
-		console.log(bgimage);
 		a.style.backgroundImage = "url('/assets/Album/" + bgimage +".png')";
-		a.style.color = "transparent";
+		var childs = a.children;
+		for (var i = childs.length - 1; i >= 0; i--) {
+			childs[i].style.visibility = "hidden";
+		}
+
 	}
 	function ShowChild(a) {
 		a.style.backgroundImage = "none";
 		a.style.backgroundColor = "#8E419B";
-		a.style.color = "black";
+		var childs = a.children;
+
+		for (var i = childs.length - 1; i >= 0; i--) {
+			childs[i].style.visibility = "visible";
+		}
+	}
+
+	function PlayTrack(game, trackname) {
+		AudioSource.pause();
+		AudioSource.src ="/assets/Music/" + game + "/" + trackname;
+		AudioSource.play();
+
+		NowPlaying.innerHTML = "Now Playing: " + trackname;
 	}
 </script>
 
@@ -43,12 +72,20 @@ html, body {
 	
 	<div class="MusicList" style="background-image: url('/assets/Album/{{game.title}}.png')" onmouseenter="ShowChild(this)" onmouseleave="HideChild(this, '{{game.title}}')">
 		<div>
+			<a href="{{game.bandcamp}}">Bandcamp Page</a>
 			{% for item in {{game.music}} %}
-			<p> {{item[1]}} </p>
+			<p> <button onclick='PlayTrack("{{game.title}}", "{{item[1]}}.mp3")'>O</button> {{item[1]}} </p>
 			{% endfor %}
 
 		</div>		
 	</div>
 
 	{% endfor %}
+</div>
+
+<div controls id="AudioPlayer">
+	<audio id="AudioSource"></audio>
+	<p id="NowPlaying">Now Playing: </p>
+	<button onclick='AudioSource.play()'>Play</button>
+	<button onclick='AudioSource.pause()'>Pause</button>
 </div>
