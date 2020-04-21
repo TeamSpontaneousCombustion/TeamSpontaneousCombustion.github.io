@@ -20,6 +20,6 @@ controls: |
     <b>X</b> - Place cleaning item <br>
 instructions: |
     Find and put down supplies that can be found around the store to feed your cleaning companion.
-	Your friend will consume supplies you place and remove dirt that customers track in, but be careful, as the customers will be scared off if it comes in contact with them.
-	The store will close if too much dirt builds up, three customers get frightened, or your helper runs out of cleaning supplies.
+    Your friend will consume supplies you place and remove dirt that customers track in, but be careful, as the customers will be scared off if it comes in contact with them.
+    The store will close if too much dirt builds up, three customers get frightened, or your helper runs out of cleaning supplies.
 ---
