@@ -8,7 +8,7 @@ desc: "You are a regular employee working during a not-so-regular day at PAPERâ„
 time: 72 hours
 made: Ludum Dare 46
 jampage: https://ldjam.com/events/ludum-dare/46/overstock
-display-order: 8
+display-order: 9
 music:
     1: "-"
     2: "-"
