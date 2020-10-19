@@ -15,9 +15,10 @@ music:
     3: "-"
 bandcamp: #
 controls: |
-    <b>TODO</b> or <b>Arrow Keys</b> - Movement <br>
-    <b>TODO</b> - Collect cleaning item <br>
-    <b>TODO</b> - Place cleaning item <br>
+    <b>A/D</b> or <b>Left & Right Arrow Keys</b> - Move left/right <br>
+    <b>W</b> or <b>Up Arrow Key</b> - Jump <br>
+    <b>Mouse </b> - Move to aim, left click to shoot <br>
 instructions: |
-    TODO
+	Shoot the spawners to advance to the next level, but watch out for any enemies that come out of them! Kill enemies with the matching colour/symbol. Some enemies may display more than one symbol, meaning they can be shot with more than one different type of weapon.
+
 ---
