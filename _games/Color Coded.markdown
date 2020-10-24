@@ -19,6 +19,6 @@ controls: |
     <b>W</b> or <b>Up Arrow Key</b> - Jump <br>
     <b>Mouse </b> - Move to aim, left click to shoot <br>
 instructions: |
-	Shoot the spawners to advance to the next level, but watch out for any enemies that come out of them! Kill enemies with the matching colour/symbol. Some enemies may display more than one symbol, meaning they can be shot with more than one different type of weapon.
+    Shoot the spawners to advance to the next level, but watch out for any enemies that come out of them! Kill enemies with the matching colour/symbol. Some enemies may display more than one symbol, meaning they can be shot with more than one different type of weapon.
 
 ---
