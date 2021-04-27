@@ -4,11 +4,11 @@ title:  "Springtale"
 location: "Games/Springtale.html"
 width: 650
 height: 490
-desc: "The new state-of-the-art Palette Pistol is in its testing stage, and there’s one major problem. The button used to easily change the type of weapon used is stuck, thus forcing the gun to change its type automatically! Not being one to back away from a challenge, you take to the testing arenas to show that even when your weapons are stuck in a loop, your skills don’t have to be."
+desc: "Play as a springtail, crunching your way through scrumptious leaves as you venture deep into the soil of this little puzzle game!"
 time: 72 hours
-made: Ludum Dare 47
+made: Ludum Dare 48
 jampage: https://ldjam.com/events/ludum-dare/47/color-coded
-display-order: 10
+display-order: 11
 music:
     1: "-"
     2: "-"
