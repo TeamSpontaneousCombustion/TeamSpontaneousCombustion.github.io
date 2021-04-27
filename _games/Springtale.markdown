@@ -19,6 +19,6 @@ controls: |
     <b>Space </b> - Toggle Spring distance <br>
     <b>Space </b> - Restart Level <br>
 instructions: |
-    Shoot the spawners to advance to the next level, but watch out for any enemies that come out of them! Kill enemies with the matching colour/symbol. Some enemies may display more than one symbol, meaning they can be shot with more than one different type of weapon.
+    Turn all the green leaves to orange by stepping on them, then fall into the hole to progress.
 
 ---
