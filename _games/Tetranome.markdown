@@ -1,7 +1,7 @@
 ---
 layout: game
 title:  "Tetranome"
-location: "Games/Tetranome.html"
+location: "https://ijzm.itch.io/tetranome"
 width: 960
 height: 600
 desc: "Line blocks to lasers in this tetronimos game where you are tight on space and time."
