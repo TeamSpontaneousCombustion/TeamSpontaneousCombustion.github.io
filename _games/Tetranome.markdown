@@ -7,7 +7,7 @@ height: 600
 desc: "Line blocks to lasers in this tetronimos game where you are tight on space and time."
 time: 72 hours
 made: Ludum Dare 54
-jampage: https://ldjam.com/events/ludum-dare/52/tetranome
+jampage: https://ldjam.com/events/ludum-dare/54/tetranome
 display-order: 13
 music:
     1: "-"
